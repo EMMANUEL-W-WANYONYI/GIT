@@ -1,0 +1,72 @@
+
+NEVER USED GIT BEFORE,the first step is
+1.Configuring your name and email(setup).
+	EXECUTE:
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+
+...This allows git know your name and email.
+WHY?a) Git associates commits with your email address, allowing you to track changes and understand
+who made which changes to the codebase when you commit them to a Git repository.
+    b)Git uses passwords for authentication with remote repositories over HTTP or HTTPS protocols,
+ensuring only authorized users can interact with the repository.
+
+2.Setting-up line ending preferences
+WINDOW USERS:
+	EXECUTE:
+git config --global core.autocrlf true
+git config --global core.safecrlf true
+MAC&UNIX USERS:
+	EXECUTE:
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+
+WHY?This ensures consistency across different operating systems like Windows, macOS, and Linux, 
+preventing version control issues, build failures, and collaboration problems. Git allows 
+developers to configure line ending handling, enabling automatic conversion of line endings to 
+a specific style during file check-in or out, enhancing collaborative workflow efficiency.
+
+3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
