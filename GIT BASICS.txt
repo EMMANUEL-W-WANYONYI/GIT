@@ -4,7 +4,6 @@ NEVER USED GIT BEFORE,the first step is
 	EXECUTE:
 git config --global user.name "Your Name"
 git config --global user.email "your_email@whatever.com"
-i love git,how about you?
 
 ...This allows git know your name and email.
 WHY?a) Git associates commits with your email address, allowing you to track changes and understand
